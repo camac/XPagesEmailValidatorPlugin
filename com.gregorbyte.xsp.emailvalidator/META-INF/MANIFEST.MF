@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Gregorbyte XPages Email Validator Plugin
+Bundle-SymbolicName: com.gregorbyte.xsp.emailvalidator;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: Gregorbyte
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Require-Bundle: com.ibm.commons,
+ com.ibm.xsp.core
+Export-Package: com.gregorbyte.xsp.library,
+ com.gregorbyte.xsp.validator

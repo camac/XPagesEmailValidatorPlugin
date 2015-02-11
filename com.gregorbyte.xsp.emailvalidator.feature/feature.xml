@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="com.gregorbyte.xsp.emailvalidator.feature"
+      label="Gregorbyte XPages Email Validator Feature"
+      version="1.0.0.qualifier"
+      provider-name="Gregorbyte">
+
+   <description url="https://github.com/camac/XPagesEmailValidatorPlugin">
+      This feature just includes the Gregorbyte XPages Email Validator
+plugin
+   </description>
+
+   <copyright url="http://www.example.com/copyright">
+      You can copy this if you like :)
+   </copyright>
+
+   <license url="http://www.example.com/license">
+      Please use however you like
+   </license>
+
+   <plugin
+         id="com.gregorbyte.xsp.emailvalidator"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+</feature>

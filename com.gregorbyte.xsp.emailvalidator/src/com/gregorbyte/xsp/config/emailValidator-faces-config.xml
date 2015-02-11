@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<faces-config>
+
+  	<validator>
+  		<validator-id>gregorbyte.EmailAddressValidator</validator-id>
+  		<validator-class>com.gregorbyte.xsp.validator.EmailAddressValidator</validator-class>
+  	</validator>  	
+  	
+</faces-config>
