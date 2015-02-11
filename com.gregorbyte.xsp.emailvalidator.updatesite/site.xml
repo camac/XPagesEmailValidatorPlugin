@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/com.gregorbyte.xsp.emailvalidator.feature_1.0.0.201502112344.jar" id="com.gregorbyte.xsp.emailvalidator.feature" version="1.0.0.201502112344">
+      <category name="gregorbytecategory"/>
+   </feature>
+   <category-def name="gregorbytecategory" label="Gregorbyte"/>
+</site>
