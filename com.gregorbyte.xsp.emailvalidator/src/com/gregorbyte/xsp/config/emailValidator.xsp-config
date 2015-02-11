@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<faces-config>
+
+  <faces-config-extension>
+    <namespace-uri>http://www.gregorbyte.com/xsp/</namespace-uri>
+    <default-prefix>gb</default-prefix>
+  </faces-config-extension>
+  
+  <validator>
+    <description>Validates that input is in the format of an Email Address</description>
+    <display-name>Email Address Validator</display-name>
+    <validator-id>gregorbyte.EmailAddressValidator</validator-id>
+    <validator-class>com.gregorbyte.xsp.validator.EmailAddressValidator</validator-class>
+    <group-type-ref>com.ibm.xsp.validator.group.Validator</group-type-ref>
+    <validator-extension>
+      <tag-name>emailAddressValidator</tag-name>
+    </validator-extension>
+  </validator>
+  
+</faces-config>
